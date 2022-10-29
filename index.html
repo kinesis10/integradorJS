@@ -87,18 +87,23 @@
                 </div>
                 <div class="col">
                     <label class="form-label" for="categoria">Categoria:</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select id="inputSelect" class="form-select" aria-label="Default select example">
                         <option selected>Categoria</option>
                         <option value="1">Estudiante</option>
                         <option value="2">Trainee</option>
                         <option value="3">Junior</option>
                       </select>
                 </div>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <div id="totalCompra" class="alert alert-primary" role="alert">
+                      Total a Pagar: $
+                    </div>
                 
               <!-- Submit-->
               <div class="botones mt-3 text-center ">
-                 <button id="borrar" class="btn boton-color btn-lg" type="button">Borrar</button>
-                 <button id="resumen" class="btn boton-color btn-lg" type="button">Resumen</button>
+                 <button id="btnBorrar" class="btn boton-color btn-lg" type="button">Borrar</button>
+                 <button id="btnResumen" class="btn boton-color btn-lg" type="button">Resumen</button>
               
             </div>
             </form>
