@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos.css">
+
+    <title>integrador</title>
+</head>
+<body>
+    <header class="container-fluid"><!--encabezado-->
+      <div class="row">
+        <nav class="navbar bg-dark">
+            <div class="contenedor-logo">
+                <img  class="logo" src="./imagenes/codoacodo.png" alt="logo">
+                <a class="navbar-brand text text-start text-white" href="">Conf Bs As</a>
+                
+            </div>
+            
+            <ul class="nav justify-content-end">
+                <li class="nav-item"><a class="nav-link text-white" href="#"> La Conferencia</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Los Oradores</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">El Lugar y la Fecha</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Conviertete en Orador</a></li>
+               <li class="nav-item"><a  class="nav-link text-success" >Comprar Tikets</a></li>
+            </ul>
+          
+        </nav>
+      </div>
+    </header>
+        <section class="container"><!--grilla con las promos-->
+            <div class="row mt-3 justify-content-center">
+                <div class="col border border-primary rounded ms-3 me-3"  style="max-width: 18rem; height: 15rem;">
+                    <h3>Estudiante</h3>
+                    <p>Tienen un descuento <br> <span>80%</span></p>
+
+                </div>
+                <div class="col border border-primary rounded ms-3 me-3" style="max-width: 18rem;">
+                    <h3>Trainee</h3>
+                    <p>Tienen un descuento <br> <span>50%</span></p>
+                </div>
+                <div class="col border border-warning rounded ms-3 me-3" style="max-width: 18rem;">
+                    <h3>Junior</h3>
+                    <p>Tienen un descuento <br> <span>15%</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="text-center">
+                <p>VENTA</p>
+                <h2>VALOR DEL TICKET $200</h2>
+            </div>
+        </section>
+        <section><!--formulario-->
+        <div class="formulario container-fluid">
+   
+            <form>
+              <!-- 2 columnas para nombre y apellido-->
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="inputNom" class="form-control" placeholder="Nombre" />
+                    <label class="form-label" for="input1"></label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-outline">
+                    <input type="text" id="inputApe" class="form-control" placeholder="Apellido"/>
+                    <label class="form-label" for="input2"></label>
+                  </div>
+                </div>
+              </div>
+              <!--CORREO-->
+              <div class="form-outline mb-4">
+                <input type="text" id="correo" class="form-control" placeholder="Correo"/>
+                    <label class="form-label" for="input3"></label>
+              </div>
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <label class="form-label" for="cantidad">Cantidad:</label>
+                    <input type="text" id="inputCant" class="form-control" placeholder="Cantidad" />
+                  </div>
+                </div>
+                <div class="col">
+                    <label class="form-label" for="categoria">Categoria:</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Categoria</option>
+                        <option value="1">Estudiante</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
+                      </select>
+                </div>
+                
+              <!-- Submit-->
+              <div class="botones mt-3 text-center ">
+                 <button id="borrar" class="btn boton-color btn-lg" type="button">Borrar</button>
+                 <button id="resumen" class="btn boton-color btn-lg" type="button">Resumen</button>
+              
+            </div>
+            </form>
+          </section>
+          <section><!--footer-->
+            <footer class="container-fluid">
+              <div class="row justify-content-end">
+              <div class="col">
+                <a class="stretched-link text-white" href="">Preguntas frecuentes</a>
+              </div>
+              <div class="col">
+                <a class="stretched-link text-white" href="">Contactanos</a>
+              </div>
+              <div class="col">
+                <a class="stretched-link text-white" href="">Prensa</a>
+              </div>
+              <div class="col">
+                <a class="stretched-link text-white" href="">Conferencia</a>
+              </div>
+              <div class="col">
+                <a class="stretched-link text-white" href="">Terminos <br> y condiciones</a>
+              </div>
+              <div class="col">
+                <a class="stretched-link text-white" href="">Privacidad</a></li>
+              </div>
+              <div class="col">
+                <a class="stretched-link text-white" href="">Estudiantes</a>
+              </div>
+          
+              </div>
+            </footer>
+          </section>
+
+    <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
