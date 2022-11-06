@@ -11,3 +11,16 @@ footer{
     margin-top: 8px;
     padding-top: 8px;
   }
+
+  h3, p{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .parrafo{
+    padding-bottom: 20px;
+  }
+  
+  .descuento{
+    font-weight: bolder;
+  }
