@@ -5,3 +5,9 @@
 .boton-color{
     background-color: rgb(95, 187, 83);
 }
+
+footer{
+    background-color: rgb(51, 75, 129);
+    margin-top: 8px;
+    padding-top: 8px;
+  }
